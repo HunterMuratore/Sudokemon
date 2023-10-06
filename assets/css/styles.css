@@ -33,7 +33,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* CUSTOM CLASSES */
-h1 {
+.sudokemon {
   font-family: pokemon-font;
-  font-size: 30px;
 }
