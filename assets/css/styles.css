@@ -37,6 +37,3 @@ h1 {
   font-family: pokemon-font;
   font-size: 30px;
 }
-
-/* Import the generated Tailwind CSS */
-@import 'css/output.css';
