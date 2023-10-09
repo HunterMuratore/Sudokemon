@@ -9,8 +9,11 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
 }
 
 img, picture, video, canvas, svg {
@@ -35,4 +38,46 @@ p, h1, h2, h3, h4, h5, h6 {
 /* CUSTOM CLASSES */
 .sudokemon {
   font-family: pokemon-font;
+}
+
+main h1 {
+  font-size: 36px;
+}
+
+.pokeball {
+  max-height: 50px;
+}
+
+.pokeball:hover {
+  transform: rotate(30deg);
+}
+
+/* Pokemon Generator */
+.pokemon-card {
+  background-color: inherit;
+  border: none;
+  font-family: pokemon-font;
+}
+
+.pokemon-img {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 1000px;
+  background: var(--shadow);
+}
+
+.pokemon-img img {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.poke-name {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
 }
