@@ -1,3 +1,5 @@
+import './styles/style.css';
+
 import { render } from './lib/actions';
 
 import landingContent from './views/landing.hbs';
