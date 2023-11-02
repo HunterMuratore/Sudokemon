@@ -1,0 +1,27 @@
+{
+  "name": "sudokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:server": "cd ./server && npm i",
+    "install": "npm run install:server",
+    "dev:server": "cd ./server && npm run dev",
+    "dev:client": "cd ./client && npm run serve",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterMuratore/sudokemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HunterMuratore/sudokemon/issues"
+  },
+  "homepage": "https://github.com/HunterMuratore/sudokemon#readme"
+}
